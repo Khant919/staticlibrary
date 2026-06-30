@@ -19,15 +19,4 @@ Quick start (build & run)
     Build with Maven:
 
     mvn package
-mvn -Dexec.mainClass="org.example.Main" exec:java
-eBookStore/
-  pom.xml
-  src/main/java/org/example/
-    Main.java                # application entry point
-    Controller/*             # controllers that load Models and bookModels
-    Model/*                  # data models
-    Book/                    # BookPage UI
-    homePage/                # EbookGUI home screen
-  HomePage.png               # screenshots used below
-  homeImg.png
-  ...
+
